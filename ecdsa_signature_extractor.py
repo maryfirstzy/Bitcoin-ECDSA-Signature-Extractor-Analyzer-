@@ -7,7 +7,7 @@ SIGHASH_FLAG = 94
 txid = "20644af039cc383818a504bd5822ef0ff7cd22773a8b22dd8f86677bcfad1e36"
 
 # Otwieramy plik i czytamy dane
-with open(r"C:\Users\wywol\Desktop\Nowy Dokument tekstowy (3).txt", "r") as f:
+with open(Txid.txt", "r") as f:
     hex_data = f.read().strip()
 
 # Wyrażenie regularne dla DER podpisu:
